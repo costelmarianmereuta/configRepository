@@ -1,0 +1,8 @@
+ms:
+  kafkaTopicName: tarifsRemoveTopic
+server:
+  port: 8082
+spring:
+  application:
+    name: tarifs
+  datasource:
