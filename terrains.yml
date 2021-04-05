@@ -2,8 +2,6 @@
 server:
     port: 8083
 spring:
-    application:
-        name: terrains
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
         password: root

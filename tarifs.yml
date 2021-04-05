@@ -3,8 +3,6 @@ ms:
 server:
     port: 8082
 spring:
-    application:
-        name: tarifs
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
         password: root
