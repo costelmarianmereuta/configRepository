@@ -4,9 +4,9 @@ server:
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: root
-        url: jdbc:mysql://localhost:3306/courts?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
-        username: root
+        password: password
+        url: jdbc:mysql://mysql-standalone:3306/courts?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+        username: sa
     jpa:
         database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
         hibernate:
